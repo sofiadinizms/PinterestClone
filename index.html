@@ -7,27 +7,36 @@
     <link rel="icon" href="favicon.webp" type="">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="header">
+        <div id="logo-container">
+            <img src="favicon.webp" alt="Pinterest Logo">
+        </div>
+        
         <p>Página inicial</p>
         <p>Explorar</p>
         <p>Criar</p>
 
-        <div>
+        <div id="search-container">
             <i class="material-icons">search</i>
-            <input type="text">
+            <input type="text" id="search-input" placeholder="Search">
         </div>
 
-        <i class="material-icons">notifications</i>
-        <i class="material-icons">sms</i>
+        <i class="material-icons clickable">notifications</i>
+        <i class="material-icons clickable">sms</i>
 
         <div>
-            <i class="material-icons">
+            <i class="material-icons clickable">
                 supervised_user_circle
             </i>
 
-            <i class="material-icons">
+            <i class="material-icons clickable">
                 keyboard_arrow_down
             </i>
         </div>
