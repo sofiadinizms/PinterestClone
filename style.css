@@ -71,3 +71,35 @@
 }
 
 /* FEED STYLING */
+
+.feed{
+    padding: 0% 5%;
+
+}
+
+.feed-image{
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+.feed-item{
+    width: 15%;
+}
+
+.feed-item .user-info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.feed-item .user-info p{
+    padding-left: 8px;
+    font-weight: 400;
+}
+
+.user-info img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
